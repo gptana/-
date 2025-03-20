@@ -1,4 +1,4 @@
-# -<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="th">
 <head>
     <meta charset="UTF-8">
@@ -55,7 +55,7 @@
     <script>
         function checkAnswer() {
             var answer = document.getElementById("answer").value;
-            if (answer === "13/2/68") { // เปลี่ยนเป็นวันคบรอบที่ถูกต้อง
+            if (answer === "13 กุมภาพันธ์ 2568") { // ใช้วันคบรอบที่ถูกต้อง
                 document.getElementById("message").style.display = "block"; // แสดงข้อความ
             } else {
                 alert('คำตอบไม่ถูกต้อง!');
