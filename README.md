@@ -2,26 +2,26 @@
 <html lang="th">
 <head>
     <meta charset="UTF-8">
-    <title>Happie BIRTH day to Meenney</title>
+    <title>สุขสันต์วันเกิดแด่ Meenney</title>
     <style>
         body {
-            background-color: #ffc0cb; /* สีชมพูอ่อน */
+            background-color: #ffc0cb; /* แดงอ่อน */
             color: #333; /* สีตัวหนังสือ */
             font-family: Arial, Helvetica, sans-serif;
             text-align: center;
             padding: 20px;
-            overflow-y: scroll; /* ทำให้สามารถเลื่อนลงได้ */
+            overflow-y: scroll; /* คุณสามารถเลื่อนลงได้ */
         }
         img {
             max-width: 100%;
             height: auto;
-            border-radius: 10px; /* ทำให้รูปมีขอบมน */
+            border-radius: 10px; /* หากคุณต้องการรูปมีขอบมน */
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* เพิ่มเงาให้รูป */
             margin: 20px auto; /* จัดรูปให้อยู่ตรงกลาง */
-            display: block; /* ให้รูปเป็นบล็อกเพื่อให้ margin ทำงาน */
+            display: block; /* ให้รูปเป็นบล็อกเพื่อให้มาร์จิ้นทำงาน */
         }
         button {
-            background-color: #ff69b4; /* สีชมพูสด */
+            background-color: #ff69b4; /* ชมพูสด */
             color: white;
             border: none;
             padding: 10px 20px;
@@ -49,7 +49,7 @@
             display: none; /* ซ่อนข้อความในตอนแรก */
             margin-top: 20px;
             font-size: 18px;
-            color: #ff1493; /* สีชมพูสด */
+            color: #ff1493; /* ชมพูสด */
         }
     </style>
     <script>
@@ -64,8 +64,8 @@
     </script>
 </head>
 <body>
-    <h1>Happie BIRTH day to Meenney</h1>
-    <p>ขอให้มีความสุขมาก ๆ นะ!</p>
+    <h1>สุขสันต์วันเกิดแด่ Meenney</h1>
+    <p>ขอให้มีความสุขมากนะ!</p>
     <img src="myphoto.jpg" alt="รูปของฉัน" width="200">
     <input type="text" id="answer" placeholder="วันคบรอบคือวันที่เท่าไหร่ เดือนอะไร พ.ศ.อะไร">
     <button onclick="checkAnswer()">กดเพื่ออวยพร</button>
